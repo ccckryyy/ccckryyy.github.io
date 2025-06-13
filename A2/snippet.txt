@@ -1,0 +1,22 @@
+<model-viewer src="skyshroom.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-surface="5 0 216931 216897 216930 0.509 0.081 0.410" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Head</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-surface="2 0 4878 4879 4880 0.385 0.528 0.087" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Light Source</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-surface="4 0 454 455 425 0.720 0.025 0.255" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Holder</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-surface="0 0 1700 1670 1669 0.138 0.774 0.088" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Joystick</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-surface="1 0 477 464 463 0.075 0.331 0.593" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Base</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
